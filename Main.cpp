@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
-#include <map>
 
 using namespace std;
 
@@ -40,5 +39,5 @@ int main()
 		Answer[i] = GetRandomNum(Number);
 		cout << Answer[i] << endl;
 	}
-
+	return 0;
 }
